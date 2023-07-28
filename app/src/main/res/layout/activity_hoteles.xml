@@ -44,7 +44,7 @@
         android:layout_marginTop="502dp"
         android:layout_marginEnd="154dp"
         android:layout_marginBottom="13dp"
-        android:text="Ver mas"
+        android:text="@string/vermas"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

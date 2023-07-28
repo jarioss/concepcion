@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:text="@string/titulomoldehotel"
+        android:text="Hotel El Pulguero"
         android:textColor="@color/black"
         android:textSize="22dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -24,10 +24,14 @@
         android:id="@+id/fotoitem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/hotel01"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="75dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="37dp"
         android:adjustViewBounds="true"
+        app:layout_constraintBottom_toTopOf="@+id/deschotelquemado"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nombrehotel"
+        app:srcCompat="@drawable/hotel01"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -49,15 +53,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Mera elegancia de parche"
+        android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="22dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.6"
-        android:textAlignment="center"
-        />
+        app:layout_constraintVertical_bias="0.6" />
 
     <TextView
         android:id="@+id/preciohotelquemado"
@@ -70,7 +73,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.65"
+        app:layout_constraintVertical_bias="0.7"
         android:textAlignment="center"/>
 
     <TextView
@@ -84,7 +87,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.7"
+        app:layout_constraintVertical_bias="0.75"
         android:textAlignment="center"
         />
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">WelcomeToTheConcha</string>
+    <string name="app_name">Benvenuto nella Conchiglia</string>
     <string name="titulohotel">Hotel</string>
     <string name="descripcionhoteles">A Concepción abbiamo i migliori e confortevoli hotel, glamping e cabine da $ 50.000 COP a notte e pro capite, camere VIP che ti permetteranno di goderti la pace e l\'atmosfera di questa bellissima città.</string>
     <string name="opcion1">Spagnolo</string>
@@ -13,9 +13,10 @@
     <string name="descsitios">Abbiamo un sacco di destinazioni in modo che tu possa camminare, vedere e lanciare pozzanghere a qualunque cosa ti dia e, soprattutto, sono totalmente gratuite. Tieni presente che questi spazi sono per ognuno di noi, motivo per cui ti invitiamo a prendertene cura. Lascia i luoghi come li hai trovati.</string>
     <string name="nombreapp">¡ConcepGo!</string>
     <string name="descacercade">Assistente tecnico di sviluppo Web con competenze per supportare i processi di strutturazione e sviluppo di pagine Web e applicazioni mobili dal back-end, ha padronanza di linguaggi come Java, Java Script e Python e framework come Node JS, Angular e Vue JS. Conoscenza di database relazionali.</string>
-    <string name="titulomoldehotel">Hotel El Pulguero</string>
-    <string name="deschotel">La mejor estancia que podrás encontran en este chochal</string>
-    <string name="preciohotel">100 lkas en adelante...</string>
+    <string name="deschotel">Descrizione</string>
+    <string name="preciohotel">Prezzo</string>
     <string name="titulomolderesta">Restaurante Rigo Go</string>
     <string name="nombreplato">Arma tu plato</string>
+    <string name="nombresitio">Nome del sito</string>
+    <string name="vermas">Vedi altro</string>
 </resources>
