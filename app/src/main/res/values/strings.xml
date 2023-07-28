@@ -1,3 +1,21 @@
 <resources>
-    <string name="app_name">concepcion</string>
+    <string name="app_name">WelcomeToTheConcha</string>
+    <string name="titulohotel">Hoteles</string>
+    <string name="descripcionhoteles">En Concepción tenemos los mejores y cómodos hoteles, glampings y cabañas desde los $50000 COP por noche y por cabeza, habitaciones VIP que te permitaran disfrutar de la paz y ambiente de este hermoso pueblo.</string>
+    <string name="opcion1">Español</string>
+    <string name="opcion2">Inglés</string>
+    <string name="opcion3">Italiano</string>
+    <string name="opcion4">Acerca de</string>
+    <string name="tituloresta">Restaurantes</string>
+    <string name="descresta">Tenemos una variedad de exquisitos platos para que deleites tu paladar, además en las tardes de calor podras comerte un rico helado y tomarte unas polas, si eres mayor de edad, tenemos espacios de esparcimiento para que puedas estar relajado con tu familia y compartiendo nuestros más variados festines.</string>
+    <string name="titulositios">Sitios Turísticos</string>
+    <string name="descsitios">Nos sobrán los destinos para que puedas caminar, devisar, y tirar charcos a lo que dé y lo mejor de todo son totalmente gratis. Ten presente que esotos espacios son para todos y cada uno de nosotros es por ello que te invitamos a cuidarlos. Deja los lugares tal como los encontraste.</string>
+    <string name="nombreapp">¡ConcepGo!</string>
+    <string name="descacercade">Asistente técnico en desarrollo web con habilidades para apoyar los procesos de estructuración y desarrollo de páginas web y aplicativos móviles desde el back end, cuenta con dominio de lenguajes como Java, Java Script, y Phyton y frameworks como Node JS, angular y Vue JS. Con conocimientos en bases de datos relacionales.</string>
+    <string name="titulomoldehotel">Hotel El Pulguero</string>
+    <string name="deschotel">Descripción</string>
+    <string name="preciohotel">Precio</string>
+    <string name="titulomolderesta">Restaurante Rigo Go</string>
+    <string name="nombreplato">Nombre del platillo</string>
+
 </resources>
