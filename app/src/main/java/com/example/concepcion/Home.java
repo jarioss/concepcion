@@ -63,26 +63,46 @@ public class Home extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item){
         //observar el comportamiento del usuario frente el menu
         int itemSeleccionado=item.getItemId();
-        switch(itemSeleccionado){
-            case(R.id.opcion1):
+        /*switch(itemSeleccionado){
+            case R.id.opcion1:
                 this.lenguageChange("es");
                 Intent spanishIntent = new Intent(Home.this, Home.class);
                 startActivity(spanishIntent);
                 break;
-            case(R.id.opcion2):
+            case R.id.opcion2:
                 this.lenguageChange("en");
                 Intent englishIntent = new Intent(Home.this, Home.class);
                 startActivity(englishIntent);
                 break;
-            case(R.id.opcion3):
+            case R.id.opcion3:
                 this.lenguageChange("it");
                 Intent italianIntent = new Intent(Home.this, Home.class);
                 startActivity(italianIntent);
                 break;
-            case(R.id.opcion4) :
+            case R.id.opcion4:
+                Intent aboutUs = new Intent(this, AcercaDe.class);
+                startActivity(aboutUs);
                 Toast.makeText(this, "accionaste Acerca de", Toast.LENGTH_SHORT).show();
-                break;
+                return true;
+        }*/
+        if (itemSeleccionado == R.id.opcion1) {
+            this.lenguageChange("es");
+            Intent spanishIntent = new Intent(Home.this, Home.class);
+            startActivity(spanishIntent);
+        } else if (itemSeleccionado == R.id.opcion2) {
+            this.lenguageChange("en");
+            Intent englishIntent = new Intent(Home.this, Home.class);
+            startActivity(englishIntent);
+        } else if (itemSeleccionado == R.id.opcion3) {
+            this.lenguageChange("it");
+            Intent italianIntent = new Intent(Home.this, Home.class);
+            startActivity(italianIntent);
+        } else if (itemSeleccionado == R.id.opcion4) {
+            Intent aboutUs = new Intent(this, AcercaDe.class);
+            startActivity(aboutUs);
+            Toast.makeText(this, "accionaste Acerca de", Toast.LENGTH_SHORT).show();
         }
+
         return super.onOptionsItemSelected(item);
     }
     //método para cambiar el idioma de la app

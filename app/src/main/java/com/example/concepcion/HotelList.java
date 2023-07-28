@@ -28,10 +28,10 @@ public class HotelList extends AppCompatActivity {
     }
 
     public void crearLista(){
-        listaHoteles.add(new MoldeHotel("Hotel 1", "descripción" ,"250000", R.drawable.hotel01));
-        listaHoteles.add(new MoldeHotel("Hotel 2", "descripción" ,"250000", R.drawable.hotel01));
-        listaHoteles.add(new MoldeHotel("Hotel 3", "descripción" ,"250000", R.drawable.hotel01));
-        listaHoteles.add(new MoldeHotel("Hotel 4", "descripción" ,"250000", R.drawable.hotel01));
-        listaHoteles.add(new MoldeHotel("Hotel 5", "descripción" ,"250000", R.drawable.hotel01));
+        listaHoteles.add(new MoldeHotel("Hotel El Pulguero", "Una experiencia inigualable con la mejor compañia entre amigos" ,"50000", R.drawable.hostal));
+        listaHoteles.add(new MoldeHotel("Hotel El Veraniego", "La mejor piscina junto al mar" ,"250000", R.drawable.hotelpiscina));
+        listaHoteles.add(new MoldeHotel("Hotel Cabaña Embrujada", "Apenas para descansar del ruido de la ciudad" ,"95000", R.drawable.cabana));
+        listaHoteles.add(new MoldeHotel("Glamping El Amorío", "Pasa una estancia romantica a lado de tu amor" ,"560000", R.drawable.glamping));
+        listaHoteles.add(new MoldeHotel("Suite Doble", "Ideal para descansar en tus viajes de negocio" ,"100000", R.drawable.camadoble));
     }
 }
