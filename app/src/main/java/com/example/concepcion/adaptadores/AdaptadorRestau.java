@@ -18,7 +18,7 @@ public class AdaptadorRestau extends RecyclerView.Adapter<AdaptadorRestau.viewHo
 
     public ArrayList<MoldeRestau> listaRestau;
 
-    public AdaptadorRestau(ArrayList<AdaptadorRestau> listaRestau) {
+    public AdaptadorRestau(ArrayList<MoldeRestau> listaRestau) {
         this.listaRestau = listaRestau;
     }
 
@@ -52,11 +52,11 @@ public class AdaptadorRestau extends RecyclerView.Adapter<AdaptadorRestau.viewHo
             precioPlato = item.findViewById(R.id.precioplato);
         }
 
-        public void actualizarDatos(MoldeRestau modelRestau){
-            fotoPlato.setImageResource(modelRestau.getFoto());
-            nombreRestau.setText(modelRestau.getNombre());
-            plato.setText(modelRestau.getPlato());
-            precioPlato.setText(modelRestau.getPrecios());
+        public void actualizarDatos(MoldeRestau moldeRestau){
+            fotoPlato.setImageResource(moldeRestau.getFoto());
+            nombreRestau.setText(moldeRestau.getNombre());
+            plato.setText(moldeRestau.getPlato());
+            precioPlato.setText(moldeRestau.getPrecios());
         }
 
     }

@@ -17,11 +17,9 @@ import java.util.ArrayList;
 public class HotelAdaptador extends RecyclerView.Adapter<HotelAdaptador.viewHolder> {
 
     //ATRIBUTOS
-
     public ArrayList<MoldeHotel> listaHoteles;
 
     //CONSTRUCTOR
-
 
     public HotelAdaptador(ArrayList<MoldeHotel> listaHoteles) {
         this.listaHoteles = listaHoteles;
